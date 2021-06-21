@@ -1,4 +1,3 @@
-# Tests for the task:
 ## Multi-dimensional Array
 
 ### Transpose given matrix.
