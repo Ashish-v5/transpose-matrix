@@ -19,7 +19,7 @@ There are two classes:
     ```
     To run particular test go to the [`TransposeMatrixTests.class`](src/test/java/com/epam/rd/autotasks/matrices/TransposeMatrixTests.java), choose the test and run command:
     ```console
-    $ mvn clean test -Dtest=MultiplyMatrixTests#<test_name>
+    $ mvn clean test -Dtest=TransposeMatrixTests#<test_name>
 
 > **Note:** 
 >- You can use the standard  **.length()** function, but no third party libraries to solve this task.
