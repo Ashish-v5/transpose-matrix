@@ -22,7 +22,7 @@ There are two classes:
     $ mvn clean test -Dtest=TransposeMatrixTests#<test_name>
 
 > **Note:** 
->- You can use the standard  **.length()** function, but no third party libraries to solve this task.
+>- You can use the standard  **.length** attribute, that determines the length of an array, but no third party libraries to solve this task.
 >- You have to install Maven locally to run tests. You can download Maven from [download page][maven-download].
 
 **Example:**
