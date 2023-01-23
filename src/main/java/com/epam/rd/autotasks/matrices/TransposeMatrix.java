@@ -4,9 +4,12 @@ import java.util.Arrays;
 public class TransposeMatrix {
     public static int[][] transpose(int[][] matrix) {
 
-        //Put your code here
-
-        return null;
+        for(int i=0;i<matrix.length;i++){
+            for(int j=0;j<matrix[0].length;j++){
+                matrix[i][j]=matrix[j][i];
+            }
+        }
+        return matrix;
     }
 
     public static void main(String[] args) {
